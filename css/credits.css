@@ -1,0 +1,38 @@
+.phcredits {
+    margin: 10px;
+    font-family: 'Roboto Mono', ;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: fpt;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #E6B89C;
+    
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 150%;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  p {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 125%;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+  }
+  
+  li {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 125%;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+  }

@@ -1,0 +1,41 @@
+The focus of this assignment is to create a website with a grid based layout that consists of more than one page and make it easy for the user to link to each page. As in the previous task, you need to apply relevant semantic markup to the text as well as creating headings and image descriptions when needed.
+
+In addition to the provided text for the site, you must create one extra page called “My first computer” (or something similar), in which you describe your own personal experience with your very first computer. You will of course have to write the text for this page yourself.
+
+Remember to add entries to your log.
+
+To submit on Fronter
+One .pdf with link to website and summary of your log entries from module 2
+
+Filename: 020201_Micro-Computer_Your-Name.pdf
+
+Requirements (Minimum)
+All the requirements from Task 02.01.01 apply
+
+You need to apply the following elements where relevant
+
+<abbr></abbr>
+
+<a> internal links
+
+<nav>
+
+<ul> and <ol> when relevant
+
+Images must be uploaded to an image folder
+
+Css must be uploaded to a css folder
+
+Html files must be placed in the root
+
+Create your layout with css grid
+
+Include two media query breakpoints 
+
+Your html and css must validate
+
+The site must consist of at least three pages and contain a global navigation linking to these pages
+
+Use local navigation on pages when relevant
+
+Use lists when appropriate: Both ordered and unordered lists

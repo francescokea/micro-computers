@@ -1,0 +1,13 @@
+article {
+    font-family: 'Roboto Mono', ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: fpt;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #E6B89C;
+    
+}

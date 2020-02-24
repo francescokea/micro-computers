@@ -1,0 +1,194 @@
+
+
+ 
+
+
+.typewriter {
+  font-size: 200%;
+
+  
+}
+
+body {
+  background-color: #160796;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 150%;
+  line-height: 40px;
+  color: #776CF9;
+  
+}
+
+p {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 125%;
+  font-weight: 600;
+  line-height: 25px;
+  color: #776CF9;
+}
+
+.begin {
+  margin: 25px;
+    padding: 8%;
+    box-shadow: 8px 8px 0px 0px #1c1b18;
+    border:25px solid #776CF9;
+    background-color: #160796;
+    
+}
+
+.c64img{
+   
+    background-color: #160796;
+    width:90%;
+    
+    margin: 5%;
+}
+
+.keyboardtext {
+  padding: 8%;
+  margin: 25px;
+  box-shadow: 8px 8px 0px 0px #1c1b18;
+  border:25px solid #776CF9;
+  background-color: #160796;
+}
+
+
+.maintext {
+  padding: 8%;
+  margin: 25px;
+  box-shadow: 8px 8px 0px 0px #1c1b18;
+  border:25px solid #776CF9;
+  background-color: #160796;
+}
+
+
+.software {
+  padding: 8%;
+  margin: 25px;
+  box-shadow: 8px 8px 0px 0px #1c1b18;
+  border:25px solid #776CF9;
+  background-color: #160796;
+}
+
+.ft {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    grid-area: ft;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+}
+
+.navbutton {
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 6px 6px 0px 0px #1c1b18;
+background-color:#ffffff;
+border:4px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#000000;
+font-weight:bold;
+  text-decoration: none;
+
+}
+
+.typewriter h1 {
+    
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #776CF9;
+  }
+
+.typewriter h1:nth-child(1) {   
+    width: 30em;  
+    animation: type2 4s steps(30, end);  
+    animation-fill-mode: forwards;
+  }
+
+  .typewriter h1:nth-child(2) {
+    width: 37em;
+    opacity: 0;
+    animation: type2 4s steps(37, end);
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  .typewriter h1:nth-child(3) {
+    width: 6em;
+    opacity: 0;  
+    animation: type2 2.8s steps(6, end);
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+  }
+
+  .typewriter h1:nth-child(4) {
+    width: 4em;
+    opacity: 0;
+    animation: type3 2.5s steps(4, end),
+    blink .5s step-end infinite alternate;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+
+  
+  li {
+    font-family: 'Roboto', sans-serif;
+  font-size: 125%;
+  font-weight: 600;
+  line-height: 25px;
+  color: #776CF9;
+  }
+ 
+  
+  
+  
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+ 
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ 
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+ 

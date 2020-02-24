@@ -1,0 +1,286 @@
+@media only screen and (max-width: 899px){
+    body {
+        display: grid;
+        
+        gap: 0.5%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+                            "header header header header header"
+                            "nav nav nav nav nav"
+                            "fpt fpt fpt fpt fpt"
+                            "fpi fpi fpi fpi fpi"
+                            "fmt fmt fmt fmt fmt"
+                            "fmi fmi fmi fmi fmi"
+                            "fun fun fun fun fun"
+                            "devtext devtext devtext devtext devtext"
+                            "devimg devimg devimg devimg devimg"
+                            "colorpctext colorpctext colorpctext colorpctext colorpctext"
+                            "colorpc colorpc colorpc colorpc colorpc"
+                            "os os os os os"
+                            "cd cd cd cd cd"
+                            "ft ft ft ft ft";
+                        
+    }
+    }
+
+@media only screen and (min-width: 900px) {
+body {
+    display: grid;
+    
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+                        ". header header header ."
+                        ". nav nav nav ."
+                        ". fpt fpt fpi ."
+                        ". fmi fmt fmt ."
+                        ". fun fun fun ."
+                        ". devtext devtext devimg ."
+                        ". colorpc colorpctext colorpctext ."
+                        ". os os os ."
+                        ". cd cd cd ."
+                        ". ft ft ft .";
+                    
+}
+}
+header {grid-area: header;
+text-align: center;
+background-color: rgb(10, 9, 9);
+box-shadow: 6px 6px 0px 0px #161614;
+    border:4px solid #333029;}
+
+nav {grid-area: nav;}
+
+.firstpctext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: fpt;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #E6B89C;
+    
+}
+.firstpctext:hover {
+    transform: translateY(5px);
+}
+
+
+.firstpcimg {
+    grid-area: fpi;
+    width: 97%;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+}
+.firstpcimg:hover {
+    transform: translateY(5px);
+}
+
+.firstmicrotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: fmt;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+}
+
+.firstmicrotext:hover {
+    transform: translateY(5px);
+}
+
+.firstmicroimg {
+    grid-area: fmi;
+    width: 97%;
+    
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+}
+.firstmicroimg:hover{
+    transform: translateY(5px);
+}
+
+.funfact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: fun;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #9CAFB7;
+    text-align: center;
+}
+
+.funfact:hover{
+    transform: translateY(5px);
+}
+
+.devpc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: devtext;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #E6B89C;
+   
+}
+
+.devpc:hover{
+    transform: translateY(5px);
+}
+
+.devpcimg {
+    grid-area: devimg;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #E6B89C;
+    width: 97%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.devpcimg:hover{
+    transform: translateY(5px);
+}
+
+.colorpc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: colorpctext;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+
+}
+.colorpc:hover{
+    transform: translateY(5px);
+}
+
+.colorpcimg {
+    grid-area: colorpc;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+    width: 97%;
+}
+
+.colorpcimg:hover{
+    transform: translateY(5px);
+}
+
+.os {
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: os;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+}
+
+.comdev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-area: cd;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 50px;
+    column-gap: 30px;
+    background-color: #9CAFB7;
+}
+
+a {
+    text-decoration: none;
+    
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    grid-area: ft;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+    border:4px solid #333029;
+    background-color: #EAD2AC;
+}
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:active { text-decoration: none; color:white }
+
+.navbutton {
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 6px 6px 0px 0px #1c1b18;
+	background-color:#ffffff;
+	border:4px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-weight:bold;
+    text-decoration: none;
+
+}
+
+
+.navbutton:hover {
+    transform: translateY(5px);
+}
+
+.navbutton:active {
+	position:relative;
+	top:1px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 899px)
+ {  nav {display: grid;
+            grid-template-columns: 1fr; }}
+
